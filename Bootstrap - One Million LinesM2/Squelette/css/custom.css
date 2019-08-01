@@ -1,0 +1,110 @@
+/* Vos customisations des classes de Bootstrap */
+
+#home {
+	
+	 color:#f8f9fa;
+}
+
+.jumbotron {
+	
+	background-image: url("../images/hero-image.jpg");
+	
+}
+
+#get-involved {
+	
+	background-color: #f8f9fa;
+	
+}
+
+.We{
+	color: #e74c3c;
+	
+}
+.image{
+	
+	width:35px;
+	height:35px;
+	float:right;
+	margin-top:45px;
+	
+}
+
+#who{
+	
+	
+	
+}
+
+.container-homepage h2 , .container-homepage h3{
+
+    text-transform: uppercase;	
+	color: #e74c3c;
+	
+}
+
+.btn {
+	
+	color: #e74c3c;  
+    background-color:#fff;	
+	
+}
+
+
+
+
+footer {
+	background-color: #f74c3c;
+
+}
+
+/* Responsive Styling */
+
+@media (max-width: 1199px) {
+	.jumbotron h1 {
+		font-size: 56px;
+		margin-bottom: 30px;
+	}
+
+}
+
+@media (max-width: 991px) {
+	.jumbotron h1 {
+		font-size: 44px;
+	}
+
+	.jumbotron p {
+		padding: 0 10px;
+	}
+
+	#get-involved .col-md-4 {
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+
+}
+
+@media (max-width: 767px) {
+	.jumbotron h1 {
+		font-size: 24px;
+	}
+
+	.jumbotron p {
+		font-size: 16px;
+		padding: 0;
+	}
+
+	.btn-lg {
+		font-size: 18px;
+	}
+
+	.homepage p {
+		font-size: 18px;
+	}
+
+	footer img {
+		width: 80%;
+	}
+
+
+}
